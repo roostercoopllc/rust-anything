@@ -9,7 +9,7 @@ rust-version = "1.97"
 keywords = ["migration", "rewrite", "ffi", "napi", "pyo3"]
 categories = ["command-line-utilities", "development-tools", "wasm"]
 repository = "https://github.com/erkamyaman/rust-anything"
-homepage = "https://github.com/erkamyaman/rust-anything"
+
 exclude = ["demo/", "npm/", "docs/", ".github/", "scripts/", "tests/fixtures/**/node_modules"]
 
 [dependencies]
@@ -43,3 +43,10 @@ unsafe_code = "forbid"
 
 [lints.clippy]
 all = { level = "warn", priority = -1 }
+
+[workspace]
+members = [
+    "rust/adapter-rs",
+    "rust/byte-sequence-length-filter-rs",
+    "rust/byte-sequence-row-object-rs",
+]

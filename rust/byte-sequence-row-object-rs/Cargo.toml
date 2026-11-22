@@ -1,0 +1,15 @@
+[package]
+name = "byte-sequence-row-object-rs"
+version = "0.1.0"
+edition = "2024"
+description = "Rust port of ByteSequenceRowObject for Ghidra byte patterns"
+repository = "https://github.com/erkamyaman/rust-anything"
+
+[dependencies]
+byte-sequence-length-filter-rs = { path = "../byte-sequence-length-filter-rs" }
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = { level = "warn", priority = -1 }
