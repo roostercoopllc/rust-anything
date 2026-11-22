@@ -18,6 +18,7 @@ front door); units cannot be bridged yet.
 | Java | Verified | JDK 21 behind a facade (2026-11-16) | 4,492/4,492; gate passes |
 | | | contextregisterinfo-rs | 2/2; gate passes |
 | | | datagatheringparams-rs | 1/1; gate passes |
+| | | simplecontextregisterinfo-rs | 1/1; gate passes |
 | C | Verified | glibc behind a facade (2026-11-16) | 1,859/1,859 after dropping one undefined-behavior case; gate passes |
 | PHP | Whole apps | none | `analyze` and whole apps only; units cannot be bridged yet |
 | C# | Whole apps | none | `analyze` and whole apps only; units cannot be bridged yet |
